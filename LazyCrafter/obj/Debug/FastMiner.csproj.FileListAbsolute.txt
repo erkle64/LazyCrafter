@@ -1,0 +1,2 @@
+E:\Development\FastMiner\FastMiner\obj\Debug\FastMiner.csproj.AssemblyReference.cache
+E:\Development\FastMiner\FastMiner\obj\Debug\FastMiner.csproj.CoreCompileInputs.cache
