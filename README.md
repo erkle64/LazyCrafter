@@ -19,4 +19,6 @@ Extract everything inside the zip into your Foundry folder.
 
 #### Compatibility
 
-Unlikely to be compatible with other mods.
+Unlikely to be compatible with other mods (except FastMiner).
+
+Probably only works in single player.
