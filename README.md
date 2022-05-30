@@ -12,10 +12,10 @@ Extract everything inside the zip into your Foundry folder.
 
 #### Usage
 
-Press `` (back quote) to craft one of the currently selected item in the hot bar.
-Press shift+`` to craft five.
-Press ctrl+`` to craft ten.
-Press ctrl+shift+`` to craft fifty.
+* Press \` (back quote) to craft one of the currently selected item in the hot bar.
+* Press shift+\` to craft five.
+* Press ctrl+\` to craft ten.
+* Press ctrl+shift+\` to craft fifty.
 
 #### Compatibility
 
