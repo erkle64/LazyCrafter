@@ -49,7 +49,7 @@ namespace LazyCrafter
         [HarmonyPostfix]
         public static void onLoadRecipe(CraftingRecipe __instance)
         {
-            //BepInExLoader.log.LogMessage(string.Format("onLoadRecipe: {0}, {1}, {2}, {3}", __instance.name, __instance.identifier, __instance.id, __instance.output_data[0].identifier));
+            BepInExLoader.log.LogMessage(string.Format("onLoadRecipe: {0}, {1}, {2}, {3}", __instance.name, __instance.identifier, __instance.id, __instance.output_data[0].identifier));
             recipeIndex[__instance.output_data[0].identifier] = __instance.id;
         }
     }
