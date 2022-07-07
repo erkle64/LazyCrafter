@@ -14,7 +14,7 @@ namespace LazyCrafter
             MODNAME = "LazyCrafter",
             AUTHOR = "erkle64",
             GUID = "com." + AUTHOR + "." + MODNAME,
-            VERSION = "1.0.0";
+            VERSION = "1.1.0";
 
         public static BepInEx.Logging.ManualLogSource log;
 
@@ -50,6 +50,10 @@ namespace LazyCrafter
 
                 original = AccessTools.Method(typeof(InputProxy), "Update");
                 post = AccessTools.Method(typeof(PluginComponent), "Update");
+                harmony.Patch(original, postfix: new HarmonyMethod(post));
+
+                original = AccessTools.Method(typeof(ItemTemplate), "onLoadPostprocess");
+                post = AccessTools.Method(typeof(PluginComponent), "onLoadItemTemplate");
                 harmony.Patch(original, postfix: new HarmonyMethod(post));
             }
             catch
