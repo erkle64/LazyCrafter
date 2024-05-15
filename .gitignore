@@ -1,6 +1,7 @@
+/Packages
+/LazyCrafter/obj
+/LazyCrafter/bin
+/Libraries
+.vs
+/Libraries
 
-LazyCrafter/.vs/*
-LazyCrafter/obj/*
-LazyCrafter/bin/*
-Libraries/*.dll
-.vs/*

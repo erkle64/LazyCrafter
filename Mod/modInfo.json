@@ -1,0 +1,9 @@
+{
+  "identifier": "erkle64.LazyCrafter",
+  "displayName": "LazyCrafter",
+  "assetBundles": [ ],
+  "assemblies": [
+    "LazyCrafter.dll"
+  ]
+}
+
