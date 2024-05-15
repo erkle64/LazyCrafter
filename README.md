@@ -12,10 +12,9 @@ Extract everything inside the zip into your Foundry folder.
 
 #### Usage
 
-* Press \` (back quote) to craft one of the currently selected item in the hot bar.
-* Press shift+\` to craft five.
-* Press ctrl+\` to craft ten.
-* Press ctrl+shift+\` to craft fifty.
+Press shift and a hotbar key to craft 5 of the item in that hotbar slot.
+Press shift+alt and a hotbar key to craft 50 of the item in that hotbar slot.
+Edit `FOUNDRY\Config\erkle64.LazyCrafter.ini` to change to number of items crafted.
 
 #### Compatibility
 
